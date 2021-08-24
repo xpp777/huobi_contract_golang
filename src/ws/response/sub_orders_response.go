@@ -53,7 +53,7 @@ type SubOrdersResponse struct {
 
 	Profit float32 `json:"profit"`
 
-	LiquidationType float32 `json:"liquidation_type"`
+	LiquidationType string `json:"liquidation_type"`
 
 	CanceledAt int64 `json:"canceled_at"`
 
